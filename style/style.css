@@ -153,6 +153,10 @@ a {
     margin-right: 20px;
 }
 
+.header_banner_button {
+    display: none;
+}
+
 .header__navbar a {
     color: white;
     font-size: 18px;
@@ -351,6 +355,10 @@ a {
     font-size: 26px;
 }
 
+.mobile__discount_block {
+    display: none;
+}
+
 .discount__name {
     position: absolute;
     top: 15px;
@@ -528,6 +536,10 @@ a {
 
 .reasons__card img {
     margin-bottom: 20px;
+}
+
+.card__mobile {
+    display: none;
 }
 
 .reasons__card span {
@@ -1236,7 +1248,7 @@ footer hr {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
     .header__search_bar {
         margin-top: 15px;
     }
@@ -1245,5 +1257,696 @@ footer hr {
         font-size: 18px;
         font-weight: 400;
         margin-top: 25px;
+    }
+    .custom {
+        display: none !important;
+    }
+    .header__search_bar {
+        margin-top: 15px;
+        display: none;
+    }
+    .header__navbar {
+        width: 80%;
+    }
+    .header_banner_button {
+        display: block;
+    }
+    .header__banner_text p {
+        display: none;
+    }
+    .header_banner_button {
+        width: 65px;
+        height: 35px;
+        border-radius: 20px;
+        background: #53c4ca;
+        border: none;
+        color: white;
+        font-weight: 600;
+    }
+    .header__banner_text {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+    }
+    .header__banner_text h1 {
+        width: 50%;
+        font-size: 15px;
+    }
+    .header__navbar_banner img {
+        height: 70px;
+        object-fit: none;
+    }
+    .header__banner_text {
+        top: 20px;
+    }
+    .header__filter {
+        display: none;
+    }
+    .header__navbar_banner img {
+        position: relative;
+        top: 4px;
+    }
+    .discount__items {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .mobile__discount_block {
+        display: inline-grid;
+        height: 700px;
+    }
+    .mobile__discount_block img {
+        width: 100vw;
+    }
+    .mobile__discount_blue {
+        height: 300px;
+    }
+    .mobile__discount_block p {
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+        bottom: 280px;
+        width: 90%;
+        margin: 0 auto;
+        position: relative;
+        line-height: 30px;
+        color: white;
+    }
+    .reasons__card p {
+        width: 150px;
+        margin: 0 auto;
+    }
+    .reviews>img {
+        width: 690px;
+        left: calc((100vw - 690px) / 2);
+        top: -300px;
+        position: absolute;
+    }
+    .info__header {
+        width: 100vw;
+    }
+    .info__block {
+        width: 95vw;
+    }
+    .info__icons_wrapper {
+        width: 95%;
+    }
+    .info__note_text {
+        font-weight: 300;
+        font-size: 14px;
+        margin-bottom: 35px;
+        line-height: 20px;
+    }
+    .footer__wrapper {
+        width: 95%;
+        margin: 0 auto;
+        display: block;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .footer_text {
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    .footer__nav {
+        text-align: left;
+    }
+    .footer__nav {
+        width: 100vw;
+        padding-top: 50px;
+    }
+    nav {
+        margin: 0 auto;
+        width: 350px;
+    }
+    footer hr {
+        margin-top: 10px;
+    }
+    .faq__subtitle {
+        width: 90%;
+    }
+    .info__wrapper_text {
+        width: 90%;
+    }
+}
+
+@media (max-width: 600px) {
+    .reviews__text {
+        width: 90%;
+    }
+    .reviews__card {
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .info h1 {
+        width: 95%;
+        font-size: 32px;
+    }
+    .reviews>img {
+        width: 90vw;
+        left: calc((100vw - 90vw) / 2);
+        top: -230px;
+        position: absolute;
+    }
+    .faq__question {
+        font-size: 14px;
+    }
+    .faq__item_number {
+        font-size: 16px;
+    }
+    .faq__item_status {
+        font-size: 16px;
+    }
+    .faq__visible {
+        width: 90%;
+    }
+    .faq__item_answer {
+        width: 90%;
+    }
+    .faq__answer__text {
+        width: 90%;
+        font-size: 13px;
+        line-height: 25px;
+        display: none;
+    }
+    .faq__item_answer_open {
+        height: 250px;
+    }
+    .reasons__card {
+        width: 33%;
+        font-size: 20px;
+        color: #312f2f;
+        font-weight: 300;
+    }
+    .reasons__cards_wrapper_small {
+        display: none;
+    }
+    .card__mobile {
+        display: block;
+    }
+    .reasons__card {
+        width: 33%;
+        font-size: 20px;
+        color: #312f2f;
+        font-weight: 300;
+        margin-top: 30px;
+    }
+    .reasons {
+        padding-bottom: 310px;
+    }
+}
+
+@media (max-width: 491px) {
+    .reasons__button {
+        width: 95%;
+    }
+    .mobile__discount_blue {
+        height: 500px;
+    }
+    .mobile__discount_block p {
+        bottom: 450px;
+    }
+    .header__navbar {
+        width: 90%;
+    }
+    .logotype {
+        margin-right: 0px;
+        width: 100px;
+    }
+    .header__button {
+        width: 120px;
+        font-size: 12px;
+        height: 40px;
+    }
+    .header__navbar a {
+        color: white;
+        font-size: 12px;
+        font-weight: 400;
+        margin-top: 25px;
+    }
+    .header__banner_text h1 {
+        width: 65%;
+        font-size: 15px;
+    }
+    .header__banner_text {
+        top: 20px;
+        margin: 0 auto;
+        left: 5%;
+    }
+    .discount h1 {
+        font-size: 17px;
+    }
+    .discount p {
+        font-size: 14px;
+    }
+    .discount__name {
+        font-size: 20px !important;
+        color: #25303b;
+        font-weight: 700 !important;
+    }
+    .discount__visible_text {
+        border-top: 0px solid #002D6B;
+        border-right: 0px solid transparent;
+        height: 0;
+        width: 185px;
+        padding-left: 20px;
+    }
+    .discount__visible_block {
+        border-left: 0px solid #279cfe;
+    }
+    .discount__visible_block {
+        border-left: 0px solid #279cfe;
+        height: 130px;
+    }
+    .discount__show {
+        top: 85px;
+        width: 130px;
+        height: 40px;
+    }
+    .discount__show p {
+        font-size: 10px !important;
+        font-weight: 600 !important;
+        margin-top: 0px;
+    }
+    .discount__price {
+        font-size: 25px !important;
+    }
+    .discount__visible_price sup {
+        font-size: 15px !important;
+    }
+    .discount__visible_price {
+        text-align: center;
+        left: 30px;
+        position: relative;
+    }
+    .discount__name_2 {
+        top: 20px !important;
+    }
+    .discount__show_adress_2 {
+        top: 75px !important;
+    }
+    .discount__name {
+        top: 35px;
+    }
+    .discount__show_adress {
+        top: 65px;
+    }
+    .discount__hidden {
+        margin-top: 0px;
+        background: #E9F5FF;
+        border-radius: 0px;
+        border: 0px solid #4ab1bd;
+        display: none;
+    }
+    .discount p {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .reasons__text {
+        line-height: 30px;
+        font-weight: 300;
+        font-size: 14px;
+        color: #312f2f;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .reasons {
+        margin-top: 50px;
+        background: #edf3fa;
+        padding-top: 110px;
+        padding-bottom: 510px;
+    }
+    .reasons__cards {
+        margin-top: 50px;
+    }
+    .reasons__cards_desc {
+        line-height: 30px;
+    }
+    .reasons__card img {
+        margin-bottom: 20px;
+        width: 90px;
+    }
+    .reasons__card p {
+        width: 120px;
+        margin: 0 auto;
+        font-size: 14px;
+    }
+    .reasons__button {
+        font-size: 16px;
+    }
+    .reasons {
+        padding-bottom: 310px;
+    }
+    .reviews>img {
+        top: -190px;
+    }
+    .reviews {
+        padding-top: 150px;
+    }
+    .reviews h1 {
+        font-size: 17px;
+    }
+    .reviews__subtitle {
+        font-weight: 300;
+        font-size: 15px;
+    }
+    .reviews__text {
+        margin: 0 auto;
+        text-align: center;
+        font-weight: 300;
+        font-size: 14px;
+        color: white;
+        line-height: 25px;
+    }
+    .reviews__cards {
+        margin-top: 30px;
+    }
+    .reviews__card {
+        width: 90%;
+    }
+    .faq h1 {
+        font-size: 17px;
+    }
+    .faq__subtitle {
+        margin: 0 auto;
+        margin-top: 25px;
+        font-weight: 300;
+        font-size: 16px;
+        color: #000000;
+        line-height: 30px;
+    }
+    .faq__items {
+        margin-top: 30px;
+        margin-bottom: 100px;
+    }
+    .faq__visible {
+        width: 95%;
+    }
+    .faq__item_answer {
+        width: 95%;
+    }
+    .faq__question {
+        font-size: 12px;
+    }
+    .faq__item_number {
+        font-size: 13px;
+    }
+    .faq__question {
+        width: 70%;
+        text-align: left;
+    }
+    .faq__question {
+        padding-top: 15px;
+    }
+    .info hr {
+        background: #f2f6fb;
+        color: #f2f6fb;
+        margin-bottom: 0px;
+        border: none;
+        height: 1px;
+    }
+    .info h1 {
+        width: 95%;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .info__button {
+        width: 90%;
+        height: 45px;
+        font-size: 14px;
+    }
+    .info hr {
+        background: #f2f6fb;
+        color: #f2f6fb;
+        margin-bottom: 20px;
+        border: none;
+        height: 1px;
+        margin-top: 20px;
+    }
+    .info__wrapper_title {
+        font-weight: 700;
+        font-size: 21px;
+        color: #002d6b;
+    }
+    .info__wrapper_text {
+        width: 90%;
+        font-size: 16px;
+    }
+    .info__icons_block img {
+        margin-right: 15px;
+        width: 20px;
+        height: 20px;
+    }
+    .info__icons_block p {
+        font-weight: 700;
+        font-size: 14px;
+        color: #002d6b;
+    }
+    .info__icons_block {
+        text-align: left;
+        margin-bottom: 15px;
+        display: flex;
+        width: 50%;
+    }
+    .info__block_text {
+        padding-left: 40px;
+        padding-right: 40px;
+        line-height: 25px;
+    }
+    .info__block_text img {
+        position: absolute;
+        top: -30px;
+        left: 20px;
+    }
+    .info__block_note {
+        text-align: left;
+        color: #666;
+        margin: 0 auto;
+        margin-top: 20px;
+        padding-bottom: 40px;
+    }
+    .info__block_note {
+        width: 90%;
+    }
+    .banner__save_title {
+        font-weight: 400;
+        font-size: 22px;
+    }
+    .banner__save_desc {
+        font-weight: 400;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    .banner__save_button {
+        width: 70%;
+        height: 55px;
+        border-radius: 40px;
+        margin-top: 50px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    .banner__save {
+        height: 200px;
+        background-size: cover;
+        padding-top: 30px;
+        box-sizing: border-box;
+    }
+    .banner__save_button {
+        width: 70%;
+        height: 55px;
+        border-radius: 40px;
+        margin-top: 20px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    .banner__list {
+        background: #53c4ca;
+        height: 150px;
+        box-sizing: border-box;
+        padding-top: 10px;
+    }
+    .banner_list_item {
+        width: 6%;
+    }
+    .banner__list_items {
+        width: 85%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        margin-top: 40px;
+    }
+    footer {
+        background: #312f2f;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .discount__adress {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 431px) {
+    .discount__price_text {
+        margin-left: 0px;
+        color: black;
+        font-weight: 600 !important;
+        font-size: 18px;
+    }
+    .discount__show {
+        top: 80px;
+        width: 130px;
+        height: 40px;
+    }
+    .discount__visible_price {
+        text-align: center;
+        left: 10px;
+        position: relative;
+    }
+    .discount {
+        margin-top: 20px;
+        color: black;
+        text-align: center;
+    }
+    .discount p {
+        margin-top: 10px;
+    }
+    .faq__items {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .info__icons_block p {
+        font-weight: 700;
+        font-size: 12px;
+        color: #002d6b;
+    }
+}
+
+@media (max-width: 415px) {
+    .header__banner_text h1 {
+        width: 75%;
+        font-size: 15px;
+    }
+    .discount__visible_price {
+        text-align: center;
+        left: 0px;
+        position: relative;
+        top: 10px;
+    }
+    .reviews>img {
+        top: -150px;
+    }
+    .faq__question {
+        width: 65%;
+        text-align: left;
+    }
+    .faq__question {
+        padding-top: 10px;
+    }
+    .discount__adress {
+        font-size: 13px;
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 376px) {
+    .logotype {
+        margin-right: 30px;
+    }
+    .discount__visible_price {
+        text-align: center;
+        left: 10px;
+        position: relative;
+        top: 10px;
+        width: 100%;
+    }
+    .discount__adress {
+        font-size: 11px;
+        line-height: 20px;
+    }
+    .discount__show p {
+        margin-top: 0px;
+    }
+    .mobile__discount_block p {
+        line-height: 25px;
+    }
+    .reasons {
+        margin-top: 0px;
+    }
+    .reasons__cards h1 {
+        font-weight: 700;
+        font-size: 21px;
+        color: #002d6b;
+    }
+    .reasons__cards_desc {
+        font-size: 13px;
+        font-weight: 300;
+        width: 80%;
+        line-height: 20px !important;
+        margin: 0 auto;
+        margin-top: 10px;
+        color: #312f2f;
+    }
+    .reasons__cards_wrapper {
+        margin-top: 0px;
+        flex-wrap: wrap;
+    }
+    .reasons__card img {
+        margin-bottom: 10px;
+        width: 70px;
+    }
+    .reasons__card p {
+        width: 100px;
+        margin: 0 auto;
+        font-size: 12px;
+    }
+    .reasons__button {
+        height: 45px;
+    }
+    .reasons {
+        padding-bottom: 210px;
+    }
+    .reviews h1 {
+        font-size: 16px;
+    }
+    .reviews__subtitle {
+        font-weight: 300;
+        font-size: 14px;
+    }
+    .reviews__card_text {
+        line-height: 23px;
+        font-weight: 400;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .faq__question {
+        width: 55%;
+        text-align: left;
+    }
+    .faq__item_answer_open {
+        height: 350px;
+    }
+    .banner__save_title {
+        font-weight: 400;
+        font-size: 18px;
+    }
+    .banner__save_desc {
+        font-weight: 400;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .banner__save_button {
+        height: 45px;
+    }
+    .footer_text {
+        width: 90%;
+    }
+}
+
+@media (max-width: 361px) {
+    .logotype {
+        margin-right: 10px;
+    }
+    .header__banner_text h1 {
+        width: 75%;
+        font-size: 14px;
     }
 }
