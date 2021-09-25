@@ -34,4 +34,10 @@ var bodyWidth = $('body').width()
 
 if (bodyWidth < 491) {
     $('.info__full_logo').attr('src', 'image/logotypes__mb.png')
+
+}
+
+if (bodyWidth < 1024) {
+
+    $('.coupon__price > img').attr('src', 'image/Component 16.png')
 }
