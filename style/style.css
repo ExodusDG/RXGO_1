@@ -133,7 +133,7 @@ a {
     padding-right: 25px;
     border: none;
     position: relative;
-    background: url("../../image/header__search.png") center no-repeat;
+    background: url("../image/header__search.png") center no-repeat;
     background-color: white;
     background-repeat: no-repeat;
     background-position: 95%;
