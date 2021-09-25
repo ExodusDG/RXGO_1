@@ -66,7 +66,7 @@ a {
 
 .custom__select:after {
     content: '';
-    background: url("/image/select.png") no-repeat right center;
+    background: url("image/select.png") no-repeat right center;
     position: absolute;
     display: block;
     content: '';
@@ -103,7 +103,7 @@ a {
     width: 1.8em;
     display: block;
     content: "";
-    background: url("/image/select.png") center no-repeat;
+    background: url("image/select.png") center no-repeat;
     pointer-events: none;
 }
 
@@ -133,7 +133,7 @@ a {
     padding-right: 25px;
     border: none;
     position: relative;
-    background: url("/image/header__search.png") center no-repeat;
+    background: url("image/header__search.png") center no-repeat;
     background-color: white;
     background-repeat: no-repeat;
     background-position: 95%;
@@ -1023,7 +1023,7 @@ a {
 
 .banner__save {
     height: 390px;
-    background-image: url(/image/banner_save.png);
+    background-image: url(image/banner_save.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 100px;
