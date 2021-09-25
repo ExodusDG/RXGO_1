@@ -29,3 +29,9 @@ $('.faq__item').click(function() {
 
     $(this).find('.faq__item_number').toggleClass('faq__item_number_open')
 })
+
+var bodyWidth = $('body').width()
+
+if (bodyWidth < 491) {
+    $('.info__full_logo').attr('src', 'image/logotypes__mb.png')
+}
