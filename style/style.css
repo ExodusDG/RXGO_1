@@ -425,6 +425,11 @@ svg .progress {
     margin-top: 0px;
 }
 
+sup {
+    position: relative;
+    top: 2px;
+}
+
 .discount__items {
     width: 980px;
     margin: 0 auto;
