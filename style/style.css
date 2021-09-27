@@ -2055,6 +2055,15 @@ footer hr {
 }
 
 @media (max-width: 431px) {
+    .discount__price {
+        font-size: 25px !important;
+        position: relative;
+        left: -15px;
+        top: -5px;
+    }
+    .discount__show {
+        right: 30px;
+    }
     .discount__price_text {
         margin-left: 0px;
         color: black;
@@ -2062,7 +2071,7 @@ footer hr {
         font-size: 18px;
     }
     .discount__show {
-        top: 80px;
+        top: 70px;
         width: 130px;
         height: 40px;
     }
@@ -2120,7 +2129,7 @@ footer hr {
         text-align: center;
         left: 0px;
         position: relative;
-        top: 10px;
+        top: -12px;
     }
     .reviews>img {
         top: -150px;
@@ -2145,7 +2154,7 @@ footer hr {
         text-align: center;
         left: 15px;
         position: relative;
-        top: 10px;
+        top: -12px;
     }
 }
 
@@ -2157,7 +2166,7 @@ footer hr {
         text-align: center;
         left: 10px;
         position: relative;
-        top: 10px;
+        top: -12px;
         width: 100%;
     }
     .discount__adress {
