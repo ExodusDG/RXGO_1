@@ -26,60 +26,6 @@ a {
 }
 
 
-/* SCROLL - BAR & UP BUTTON */
-
-.up__button {
-    background: #3D4962;
-    width: 50px;
-    height: 50px;
-    bottom: 29px;
-    left: 25px;
-    cursor: pointer;
-    border-radius: 100px;
-    transition: 0.4s;
-    color: white;
-    position: absolute;
-    padding-top: 15px;
-    text-align: center;
-    box-sizing: border-box;
-    z-index: 1000;
-}
-
-.up__button img {
-    width: 20px;
-}
-
-.up__button:hover {
-    color: white;
-    background: #279cfe;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 40px;
-}
-
-svg .progress {
-    stroke-dasharray: 339.292 339.292;
-    stroke-dashoffset: 339.292;
-    stroke-linecap: round;
-    transform: rotate(-90deg);
-    transform-origin: 50% 50%;
-    transition: stroke-dashoffset 0.5s linear;
-    animation: dash 0.5s linear forwards;
-    z-index: 1000;
-}
-
-.scroll_up {
-    transform: translateX(200px);
-    transition: 0.4s;
-    position: fixed;
-    right: 50px;
-    bottom: 50px;
-    z-index: 1000;
-}
-
-.scroll_up_visible {
-    transform: translateX(0px);
-}
-
-
 /* 2. Header */
 
 .header__navbar {
@@ -548,6 +494,11 @@ sup {
     color: white;
     align-items: center;
     cursor: pointer;
+    transition: 0.2s;
+}
+
+.discount__show:hover {
+    opacity: 0.7;
 }
 
 .discount__show p {
