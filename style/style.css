@@ -280,9 +280,10 @@ a {
     border-radius: 10px;
     color: white;
     background: #279cfe;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     width: 185px;
+    letter-spacing: 0.05em;
     text-transform: uppercase;
     cursor: pointer;
 }
@@ -669,7 +670,7 @@ sup {
     width: 520px;
     height: 65px;
     background: #002d6b;
-    border-radius: 20px;
+    border-radius: 40px;
     border: none;
     margin: 0 auto;
     margin-top: 75px;
@@ -1376,9 +1377,30 @@ footer hr {
         width: 350px;
         padding-top: 50px;
     }
+    .header__filter_items>div {
+        width: 49%;
+    }
+    .header__filter_items>input {
+        width: 49%;
+    }
+    .header__filter_items>button {
+        width: 49%;
+    }
+    .filter__sort select {
+        width: 100%;
+    }
+    .filter__sort select {
+        padding-left: 25px;
+    }
+    .filter__sort::after {
+        right: 20px;
+    }
 }
 
 @media (max-width: 769px) {
+    .faq__block {
+        margin: 0 auto;
+    }
     .discount__price {
         font-size: 25px !important;
     }
@@ -2159,6 +2181,19 @@ footer hr {
     }
 }
 
+@media (max-width: 396px) {
+    .mobile__discount_block p {
+        margin-top: -65px;
+    }
+    .mobile__discount_blue {
+        height: 550px;
+    }
+    .banner__save_title {
+        font-weight: 400;
+        font-size: 18px;
+    }
+}
+
 @media (max-width: 415px) {
     .discount__adress {
         padding-top: 5px;
@@ -2236,6 +2271,9 @@ footer hr {
         font-weight: 700;
         font-size: 21px;
         color: #002d6b;
+    }
+    .mobile__discount_block p {
+        margin-top: -10px;
     }
     .reasons__cards_desc {
         font-size: 13px;
