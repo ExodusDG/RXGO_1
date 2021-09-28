@@ -40,6 +40,8 @@ a {
 
 .header {
     background: #312f2f;
+    max-width: 1920px;
+    margin: 0 auto;
 }
 
 .logotype {
@@ -203,6 +205,12 @@ a {
     justify-content: space-between;
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+.header__navbar_banner img {
+    margin: 0 auto;
+    width: 100vw;
+    max-width: 1920px;
 }
 
 .filter__input {
