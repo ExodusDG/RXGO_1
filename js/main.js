@@ -39,5 +39,6 @@ if (bodyWidth < 491) {
 
 if (bodyWidth < 1024) {
 
-    $('.coupon__price > img').attr('src', 'image/Component 16.png')
+    $('.coupon__price > img').attr('src', 'image/var_1_banner.png')
+    $('..coupon__price').css('left', '0')
 }
