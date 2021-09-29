@@ -359,7 +359,7 @@ a {
 
 .coupon__price {
     position: absolute;
-    left: 500px;
+    right: 200px;
     top: 0;
 }
 
@@ -1354,9 +1354,6 @@ footer hr {
     .header__search_bar {
         /* margin-right: 30px; */
     }
-    .coupon__price {
-        display: none;
-    }
     .discount__item {
         width: 95%;
         margin: 0 auto;
@@ -1366,11 +1363,40 @@ footer hr {
         height: 40px;
         width: 300px;
     }
+    .coupon__price {
+        position: absolute;
+        right: -130px;
+        top: -25px;
+        width: 300px;
+    }
+    .coupon__price_save span {
+        margin-right: 5px;
+    }
+    .coupon__price_text_2 {
+        position: absolute;
+        color: white;
+        right: 5px;
+        top: 7px;
+        font-size: 11px;
+        width: 100px;
+        text-align: center;
+        font-weight: 400;
+    }
     .reasons__container {
         max-width: 100%;
         width: 95%;
         margin: 0 auto;
         text-align: center;
+    }
+    .coupon__price_save {
+        margin-top: 0px !important;
+        margin-left: 10px;
+    }
+    .coupon__price_text {
+        position: absolute;
+        left: 0px;
+        display: flex;
+        align-items: center;
     }
     .reviews__cards {
         flex-wrap: wrap;
@@ -1417,6 +1443,22 @@ footer hr {
     }
     .filter__sort::after {
         right: 20px;
+    }
+    .discount__item {
+        width: 95%;
+        margin: 0 auto;
+        margin-bottom: 35px;
+    }
+    .coupon__price {
+        position: absolute;
+        right: -10px;
+        top: -25px;
+        width: 300px;
+    }
+    .discount__items {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 20px;
     }
 }
 
@@ -1727,6 +1769,12 @@ footer hr {
     }
     .reasons__button {
         width: 95%;
+    }
+    .coupon__price {
+        position: absolute;
+        right: 20px;
+        top: -25px;
+        width: 300px;
     }
     .mobile__discount_blue {
         height: 500px;
@@ -2202,6 +2250,12 @@ footer hr {
     .discount__adress {
         font-size: 12px;
     }
+    .coupon__price {
+        position: absolute;
+        right: 5px;
+        top: -15px;
+        width: 300px;
+    }
 }
 
 @media (max-width: 396px) {
@@ -2263,6 +2317,10 @@ footer hr {
     }
     .discount__price_text {
         right: 15px;
+    }
+    .discount__price_text {
+        right: 15px;
+        top: 5px;
     }
 }
 
