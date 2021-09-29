@@ -40,7 +40,7 @@ a {
 
 .header {
     background: #312f2f;
-    max-width: 1920px;
+    /* max-width: 1920px; */
     margin: 0 auto;
 }
 
@@ -215,7 +215,7 @@ a {
     display: flex;
     overflow: hidden;
     width: 100vw;
-    max-width: 1920px;
+    max-width: 100vw;
 }
 
 .header__doctor {
@@ -225,7 +225,7 @@ a {
 
 .header__navbar_banner img {
     margin: 0 auto;
-    max-width: 1920px;
+    max-width: 100vw;
     height: 240px;
 }
 
