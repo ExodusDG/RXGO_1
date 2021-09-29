@@ -168,7 +168,11 @@ a {
 
 .header__navbar_banner img {
     margin: 0 auto;
+}
+
+.header__banner {
     width: 100vw;
+    max-width: 1920px;
 }
 
 .header__navbar_banner {
@@ -207,9 +211,20 @@ a {
     padding-bottom: 15px;
 }
 
+.header__banner {
+    display: flex;
+    overflow: hidden;
+    width: 100vw;
+    max-width: 1920px;
+}
+
+.header__doctor {
+    position: absolute;
+    left: 0;
+}
+
 .header__navbar_banner img {
     margin: 0 auto;
-    width: 100vw;
     max-width: 1920px;
     height: 240px;
 }
@@ -1231,7 +1246,6 @@ footer hr {
 @media (max-width: 1600px) {
     .header__navbar_banner img {
         margin: 0 auto;
-        width: 100vw;
         height: 245px;
     }
     .header__banner_text {
