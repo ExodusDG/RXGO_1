@@ -35,7 +35,21 @@ var bodyWidth = $('body').width()
 if (bodyWidth < 491) {
     $('.info__full_logo').attr('src', 'image/logotypes__mb.png')
 
+    $('.reasons').attr('style', 'display: none');
+    $('.reviews').attr('style', 'display: none');
+    $('.faq').attr('style', 'display: none');
+    $('.info').attr('style', 'display: none');
+    $('footer').attr('style', 'display: none');
+
 }
+
+$("body").scroll(function() {
+    $('.reasons').attr('style', 'display: block');
+    $('.reviews').attr('style', 'display: block');
+    $('.faq').attr('style', 'display: block');
+    $('.info').attr('style', 'display: block');
+    $('footer').attr('style', 'display: block');
+});
 
 if (bodyWidth < 1024) {
 
