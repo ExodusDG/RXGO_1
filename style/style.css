@@ -1331,10 +1331,10 @@ footer hr {
     .header__banner_text {
         top: 45px;
         position: absolute;
-        width: 100%;
+        width: 90%;
         /* margin: 0 auto; */
         text-align: center;
-        left: 0%;
+        left: 5%;
     }
 }
 
