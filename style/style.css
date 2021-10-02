@@ -1251,6 +1251,14 @@ footer hr {
     .header__banner_text {
         top: 25px;
     }
+    .header__banner_text {
+        top: 25px;
+        position: absolute;
+        width: 70%;
+        /* margin: 0 auto; */
+        text-align: center;
+        left: 25%;
+    }
 }
 
 @media (max-width: 1368px) {
