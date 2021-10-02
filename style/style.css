@@ -1325,6 +1325,17 @@ footer hr {
         display: flex;
         justify-content: space-between;
     }
+    .header__doctor {
+        display: none;
+    }
+    .header__banner_text {
+        top: 45px;
+        position: absolute;
+        width: 100%;
+        /* margin: 0 auto; */
+        text-align: center;
+        left: 0%;
+    }
 }
 
 @media (max-width: 1024px) {
